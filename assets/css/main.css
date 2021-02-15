@@ -2722,6 +2722,7 @@ input, select, textarea {
 
 	}
 
+
 	header.major h2:after {
 		background-color: rgba(255, 255, 255, 0.35);
 	}
@@ -3208,10 +3209,10 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 360px) {
+		@media screen and (max-width: 360.5px) {
 
 			#header {
-				padding: 2.5em 1em 0.1em 1em ;
+				padding: 1.5em 1em 1.5em 1em ;
 			}
 
 				#header.alt {
@@ -3356,7 +3357,50 @@ input, select, textarea {
 			
 		}
 
+		@media screen and (max-width: 425px) {
+
+			#nav {
+				max-width: 92%;
+
+			}
+			#nav ul li a {
+				padding: 0 0.5em;
+				
+			}
+
+			
+		}
+
 		@media screen and (max-width: 400px) {
+
+			#nav {
+				max-width: 91.5%;
+
+			}
+			#nav ul li a {
+				padding: 0 0.5em;
+				
+			}
+
+			
+		}
+
+		@media screen and (max-width: 360.5px) {
+
+			#nav {
+				max-width: 100%;
+
+			}
+			#nav ul li a {
+				padding: 0 0.5em;
+				
+			}
+
+			
+		}
+
+
+		@media screen and (max-width: 350px) {
 
 			#nav {
 				display: none;
