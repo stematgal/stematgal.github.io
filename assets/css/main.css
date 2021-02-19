@@ -2814,6 +2814,23 @@ input, select, textarea {
 		border-color: rgba(255, 255, 255, 0.35);
 	}
 
+	@media screen and (max-width: 980px) {
+
+		td {
+			font-size: 0.9em;
+		}
+	
+	}
+
+	@media screen and (max-width: 400px) {
+
+		td {
+			font-size: 0.75em;
+		}
+
+			
+	}
+
 /* Features */
 
 	.features {
