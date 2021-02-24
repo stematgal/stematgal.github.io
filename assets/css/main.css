@@ -2749,6 +2749,11 @@ input, select, textarea {
 			padding: 0.75em 0.75em;
 		}
 
+		table desc {					
+			font-size: 0.8em;
+			margin: 0 0 0 0; 
+		}
+
 		table th {
 			font-size: 0.9em;
 			font-weight: 400;
